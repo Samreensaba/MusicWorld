@@ -1,0 +1,58 @@
+/** @format */
+.album-title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.artist-name {
+  color: white;
+}
+.card-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.song-section:hover {
+  background-color: rgb(4, 34, 62);
+}
+
+#btnPlay {
+  background-color: #e05515;
+  border: none;
+}
+
+#btnPlay {
+  position: relative;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#btnPlay::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#btnPlay:hover {
+  transform: scale(1.1, 1.1);
+  border-radius: 20px !important;
+}
+
+#btnPlay:hover::after {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .song-container {
+    padding-left: 4rem !important;
+    padding-right: 1.5rem !important;
+  }
+}

@@ -1,0 +1,15 @@
+/** @format */
+
+.whole-page {
+  background: rgb(0, 20, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 36, 0.8746849081429446) 17%,
+    rgba(255, 0, 147, 1) 63%
+  );
+}
+
+.chatBot {
+  width: 60% !important;
+  height: 60% !important;
+}

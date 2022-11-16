@@ -1,0 +1,14 @@
+/** @format */
+
+body {
+  object-fit: contain;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+}
+.App {
+  text-align: center !important;
+  color: white;
+}

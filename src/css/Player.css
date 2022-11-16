@@ -1,0 +1,67 @@
+/** @format */
+.player {
+  width: 81%;
+  /* background: rgb(0, 16, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 16, 36, 0.8746849081429446) 0%,
+    rgba(84, 236, 72, 1) 54%
+  ); */
+  background-color: #1f2667;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+.playbar {
+  position: fixed;
+  bottom: 0;
+  left: 18%;
+  z-index: 99;
+}
+
+.footerSong {
+  height: 25px;
+  margin-left: 25rem;
+}
+.short-img {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.rhap_container {
+  background-color: inherit;
+  box-shadow: none;
+  padding: 0 15px;
+}
+.rhap_time {
+  color: white;
+}
+/* .rhap_button-clear {
+  color: #22223b;
+} */
+.rhap_repeat-button {
+  color: grey !important;
+}
+.rhap_progress-section {
+  height: 0px;
+}
+
+.rhap_stacked .rhap_controls-section {
+  margin-top: 0;
+}
+
+.currentSong {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .playbar {
+    width: 534px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .footerTitle {
+    display: none;
+  }
+}

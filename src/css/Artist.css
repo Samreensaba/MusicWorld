@@ -1,0 +1,40 @@
+/** @format */
+
+/*MAIN PAGE SECTION*/
+
+#playButton {
+  border-radius: 30px;
+  width: 140px;
+  background-color: #e05515;
+  border: none;
+}
+
+#followButton {
+  border-radius: 30px;
+  width: 140px;
+  border: 2px solid grey;
+}
+
+#followButton:hover {
+  background-color: darkgrey !important;
+}
+
+.artist-img {
+  border-radius: 20%;
+  font-size: 200px !important;
+}
+
+.titleMain {
+  color: rgb(131, 232, 227);
+}
+.imgLinks {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+@media (max-width: 600px) {
+  .row-mar {
+    padding-left: 2rem !important;
+    padding-right: 1.5rem !important;
+    margin-right: 0 !important;
+  }
+}
